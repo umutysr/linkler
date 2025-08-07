@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+#body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.qfoodbeverage.com.tr/files/pattern.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+#listeler{
+  background-image: linear-gradient(rgba(119, 117, 117, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.qfoodbeverage.com.tr/files/pattern.svg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: black;
+}
