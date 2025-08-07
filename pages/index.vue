@@ -41,7 +41,7 @@
   const loading = ref(false);
   const baseUrl = "https://huqqabaz.com/branch/";
   
-  // Türkçe karakterleri sluga çevir
+  
   const slugify = (text) => {
     return text
       .toString()
@@ -58,14 +58,14 @@
       .replace(/-+/g, "-");
   };
   
-  // Linki oluştur
+  
   const generateBranchUrl = (branch) => {
     if (!branch?.name?.tr) return "#";
     const slug = slugify(branch.name.tr);
     return baseUrl + slug;
   };
   
-  // API'den verileri al
+  
   const getBranches = async () => {
     loading.value = true;
     error.value = null;
