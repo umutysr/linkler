@@ -1,6 +1,6 @@
 <template>
-    <div class="min-h-screen bg-gray-100 flex items-center justify-center" id="body">
-      <div class="w-full max-w-md p-4 bg-white rounded-lg shadow text-center" id="listeler">
+    <div class="min-h-screen bg-gray-100 flex items-center justify-center " id="body">
+      <div class="w-full max-w-md p-4 bg-white rounded-lg shadow text-center " id="listeler">
         <!-- Logo -->
         <div class="mb-6">
           <img src="./95afce.jpg" alt="Logo" class="w-32 h-auto mx-auto rounded-full" />
@@ -8,7 +8,7 @@
   
         <!-- Şube Listesi -->
         <div class="space-y-4">
-          <h2 class="text-lg font-semibold mb-4">Tüm Şubeler</h2>
+          <br><br>
   
           <p v-if="loading" class="text-gray-500">Yükleniyor...</p>
           <p v-if="error" class="text-red-500">Hata: {{ error }}</p>
