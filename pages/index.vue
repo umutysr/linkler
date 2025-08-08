@@ -70,7 +70,7 @@
     loading.value = true;
     error.value = null;
     try {
-      const res = await fetch("https://api.qfoodbeverage.com.tr/api/branches", {
+      const res = await fetch("https://api.qfoodbeverage.com.tr/api/branches-asc", {
         headers: {
           "X-Host-Name": "huqqabaz.com",
         },
